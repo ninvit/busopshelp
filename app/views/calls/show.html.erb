@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Requestor:</strong>
+  <%= @call.requestor %>
+</p>
+
+<p>
+  <strong>Req date:</strong>
+  <%= @call.req_date %>
+</p>
+
+<p>
+  <strong>Problem:</strong>
+  <%= @call.problem %>
+</p>
+
+<p>
+  <strong>System:</strong>
+  <%= @call.system %>
+</p>
+
+<p>
+  <strong>Solution:</strong>
+  <%= @call.solution %>
+</p>
+
+<p>
+  <strong>Sol date:</strong>
+  <%= @call.sol_date %>
+</p>
+
+<p>
+  <strong>Sol by:</strong>
+  <%= @call.sol_by %>
+</p>
+
+<%= link_to 'Edit', edit_call_path(@call) %> |
+<%= link_to 'Back', calls_path %>

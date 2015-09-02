@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  requestor: MyString
+  req_date: 2015-09-02
+  problem: MyString
+  system: MyString
+  solution: MyString
+  sol_date: 2015-09-02
+  sol_by: MyString
+
+two:
+  requestor: MyString
+  req_date: 2015-09-02
+  problem: MyString
+  system: MyString
+  solution: MyString
+  sol_date: 2015-09-02
+  sol_by: MyString
